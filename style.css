@@ -1,0 +1,6 @@
+.singleBlock {
+  width: 30px;
+  height: 30px;
+  background-color: brown;
+  border: 1px solid blue;
+}

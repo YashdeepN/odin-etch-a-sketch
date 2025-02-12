@@ -21,3 +21,11 @@ for (let i = 0; i < GRID_SIZE; ++i) {
 for (let i = 0; i < GRID_SIZE; ++i) {
   mainContainer.appendChild(gridRow.cloneNode(true));
 }
+
+const selectPixes = document.querySelectorAll(".mainContainer .singleBlock");
+
+selectPixes.forEach((selectPix) =>
+  selectPix.addEventListener("mouseover", () => {
+    selectPix.style.backgroundColor = "white";
+  })
+);
